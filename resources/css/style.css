@@ -1,0 +1,70 @@
+@import url('reset.css');
+@import url('colores.css');
+
+:root{
+    --alturaHeader: 240px;
+}
+  
+header{
+    position: relative;
+    height: var(--alturaHeader);
+    background-color: blue;
+}
+
+.buscador{
+    display: flex;
+    position: absolute;
+    /* bottom: -30px;
+    right: 125px; */
+    bottom: -30px;
+    left: 10%;
+  
+    height: 60px;
+    width: 80%;
+    background-color: rgb(158, 1, 1);
+ 
+ input[type="text"]{
+    flex: 1;
+    height: 100%;
+    padding: 0 20px;
+ }
+
+ i{
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    background-color: rgb(255, 255, 255);
+ }
+ button {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    background-color: rgb(255, 255, 255);
+ }
+}
+
+.textoBienvenida{
+    position: absolute;
+    /* bottom: -30px;
+    right: 125px; */
+    bottom: 50px;
+    left: 5%;
+}
+
+main{
+    min-height: calc(100dvh - var(-- --alturaHeader));
+    background-color: red;
+}
+
+.categorias{
+    height: 80px;
+    background-color: greenyellow;
+}
+
+.resto{
+    min-height: 300px;
+    background-color: rgb(209, 15, 226);
+}
+
